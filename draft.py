@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1zvtlohxz9vc1bSU--8ZqkCvDagjZb0JO
 """
 
-!pip install gradio
-pip install --upgrade pip
 import pandas as pd
 import numpy as np
 import nltk
