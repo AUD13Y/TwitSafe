@@ -27,7 +27,7 @@ nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 
 # Load dataset
-data = pd.read_csv("/content/Twitter_Hate_Speech.csv")
+data = pd.read_csv("Twitter_Hate_Speech.csv")
 data["labels"] = data["class"].map({0: "Hate Speech", 1: "Offensive Language", 2: "Normal"})
 
 # Clean text
