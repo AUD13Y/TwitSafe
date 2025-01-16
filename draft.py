@@ -8,6 +8,7 @@ Original file is located at
 """
 
 !pip install gradio
+pip install --upgrade pip
 import pandas as pd
 import numpy as np
 import nltk
